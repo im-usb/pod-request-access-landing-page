@@ -1,0 +1,166 @@
+@media only screen and (max-width: 768px) {
+    body {
+        background: url(../assets/tablet/image-host.jpg),#121725;
+        background-repeat: no-repeat;
+        background-position: top right
+    }
+
+    .page-main {
+        width: 100%;
+        margin: 0 0;
+    }
+
+    .page-main header {
+        margin: 50px auto auto 39px;
+    }
+
+    .page-main .container {
+        width: 100%;
+        background: none;
+        padding: 154px 0 0 0;
+    }
+
+    .page-main .container .content{
+        width: 82.68%;
+        margin: 0 auto 0 39px;
+    }
+
+    .page-main .container .content .heading h1 {
+        font-size: 48px;
+        padding: 93px 0 31px 0;
+    }
+
+    .page-main .container .content .heading span{
+        font-size: 48px;
+    }
+
+
+    .page-main .container .content .email {
+        width: 427px;
+    }
+
+    .page-main .container .content .email button {
+        font-size: 14px;
+        padding: 9px 27px;
+    }
+
+    .page-main .container .content .partners img {
+        padding-right: 30px;
+    }
+
+    .page-main .container .dots img {
+        left: 30px;
+        top: 950px;
+    }
+}
+
+@media only screen and (max-width: 640px) {
+    
+    body {
+        background-image: url(../assets/mobile/image-host.jpg);
+        background-color: #121725;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100vh;
+        text-align: center;
+        background-blend-mode: overlay;
+    }
+
+    .page-main header {
+        margin: 62px auto 57px auto;
+    }
+
+    .page-main .container {
+        width: 87.2%;
+        margin: 0 auto;
+        padding: 0 0 94px 0;
+        box-sizing: border-box;
+    }
+
+    .page-main .container .content {
+        width: 100%;
+        margin: 0 auto;
+        background: none;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .page-main .container .content .heading h1 {
+        padding: 0 0 16px 0;
+        font-size: 26px;
+        line-height: 38px;
+    }
+
+    .page-main .container .content .heading span {
+        font-size: 26px;
+        line-height: 38px;
+    }
+    
+    .page-main .container .heading {
+        order: 1;
+    }
+    
+    .page-main .container .content .description{
+        width: 100%;
+        order: 2;
+        padding:0 0 33px 0;
+    }
+
+    .page-main .container .content .description p {
+        font-size: 15px;
+        line-height: 25px;
+    }
+
+    .page-main .container .content .partners {
+        order: 3;
+        margin: 0 0 46px 0;
+    }
+
+    .page-main .container .content .partners img {
+        padding:0 13px 0 0;
+    }
+
+    .page-main .container .content .partners .spotify {
+        width: 55px;
+    }
+
+    .page-main .container .content .partners .apple {
+        width: 45px;
+    }
+
+    .page-main .container .content .partners .google {
+        width: 73px;
+    }
+
+    .page-main .container .content .partners .pocket {
+        width: 77px;
+        padding-right: 0;
+    }
+
+    .page-main .container .content .email {
+        order: 4;
+        display: flex;
+        flex-direction: column;
+        background: none;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .page-main .container .content .email input {
+        width: 100%;
+        margin:0 0 16px 0;
+        font-size: 14px;
+        line-height: 28px;
+    }
+
+    .page-main .container .content .email button {
+        width: 100%;
+        font-size: 14px;
+        line-height: 28px;
+        margin: 0 0;
+    }
+
+    .page-main .container .dots img {
+        display: none;
+    }
+}

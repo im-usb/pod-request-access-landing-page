@@ -1,0 +1,129 @@
+* {
+    font-family: 'Chivo', sans-serif;
+    font-size: 18px;
+    line-height: 28px;
+}
+
+body {
+    margin: 0 0;
+    box-sizing: border-box;
+    background: #121725;
+}
+
+.page-main {
+    width: 88.50%;
+    margin: 0 auto 0 11.45%;
+}
+.page-main header {
+    margin: 103px 0 0 0;
+}
+
+.page-main .container {
+    max-width: 1275px;
+    width: 100%;
+    padding: 0 15px;
+    display: block;
+    box-sizing: border-box;
+    background: url(../assets/desktop/image-host.jpg);
+    background-repeat: no-repeat;
+    background-position: top right;
+    padding: 131px 0 0 0;
+    margin: -37px 0 0 0;
+}
+
+.page-main .container .content {
+    background: #121725;
+    max-width: 723px;
+    width: 56.70%;
+    box-sizing: border-box;
+}
+
+.page-main .container .content .heading h1 {
+    font-size: 52px;
+    line-height: 62px;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin: 0 0 ;
+    padding: 88px 58px 24px 0;
+    color: #FFFFFF;
+}
+
+.page-main .container .content .heading span{
+    font-size: 52px;
+    color: #54E6AF;
+    font-weight: 400;
+}
+
+.page-main .container .content .description {
+    width: 61.5%;
+    padding: 0 0 40px 0;
+}
+
+.page-main .container .content .description p {
+    color: #C2CBE5;
+    margin: 0 0;
+}
+
+.page-main .container .content .email {
+    max-width: 445px;
+    background-color: #2C344B;
+    border-radius: 28px;
+    margin: 0 0 64px 0;
+}
+
+.page-main .container .content  .email input {
+    padding: 12px 0 16px 32px;
+    border-radius: 28px;
+    border: none;
+    background-color: #2C344B;
+    color: #FFFFFF;
+    opacity: 0.5;
+    box-sizing: border-box;
+    width: 60%;
+}
+
+.page-main .container .content .email button {
+    padding: 9px 0;
+    margin: 0;
+    border-radius: 28px;
+    border: none;
+    box-sizing: border-box;
+    background-color: #54E6AF;
+    color: #121725;
+    font-weight: 400;
+    font-size: 14px;
+    width: 38%;
+    transition: 0.5s;
+}
+
+.page-main .container .content .partners {
+    width: 100%;
+}
+
+.page-main .container .content .partners img {
+    padding: 0 0 0 40px;
+}
+
+.page-main .container .content .partners .google{
+    padding-right: 27px;
+    margin: 0 auto;
+}
+
+.page-main .container .content .partners .pocket{
+    padding-right: 0;
+}
+
+.page-main .container .dots img {
+    position: absolute;
+    right:0;
+    top: 718px;
+}
+
+.page-main .container .content .email button:hover {
+    background: #B3FFE2;
+    cursor: pointer;
+}
+
+.page-main .container .content  .email input:focus{
+    outline: solid #54E6AF 1px;
+}
